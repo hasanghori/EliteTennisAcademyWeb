@@ -25,6 +25,11 @@ body {
     align-self: left;
 }
 
+.courtName h3 {
+    color: black;
+    align-self:center;
+}
+
 #animTitle {
     position: absolute;
     top: 50%;
