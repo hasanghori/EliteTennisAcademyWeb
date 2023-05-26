@@ -669,8 +669,9 @@ nav {
 
 .tutor-content {
     display: flex;  
+    align-items: center;
+    text-align: center;
 }
-
 .top-box {
     display: flex;
     width: 100%;
@@ -697,24 +698,27 @@ nav {
 
 .tutor-words {
     color: black;
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     font-weight: lighter;
+
 }
 
 .tutor-qualifications{
     color: black;
-    text-align: left;
+    text-align: center;
     font-weight: lighter;
     font-size: 18px;
     padding-left: 1em;
+    align-items: center;
 }
 
 .tutor {
     /*border: black;*/
-    border: 10px solid #000;
     background-color: white;
-}
+    border: 10px solid rgb(194, 255, 194);
+    border-radius: .25rem;
+  }
 
 .nav-link-wrapper-tutor {
     height: 22px;
@@ -1018,14 +1022,14 @@ nav {
 
     .tutor-words {
         color: black;
-        text-align: right;
+        text-align: center;
         font-size: 18px;
         font-weight: lighter;
     }
     
     .tutor-qualifications{
         color: black;
-        text-align: left;
+        text-align: center;
         font-weight: lighter;
         font-size: 18px;
         padding-left: 1em;
