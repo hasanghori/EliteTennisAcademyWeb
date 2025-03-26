@@ -532,6 +532,7 @@ svg text {
   color: white;
   scroll-snap-align: start;
   min-width: auto;
+  padding-bottom: 60px;
 }
 
 .gallery h1 {
